@@ -3,73 +3,48 @@
 <head><title>Have your say</title>
 </head>
 <body style="background-color:white;">
-
-</body>
-<container>
-
-<form class="cf">
-<div class="half left cf">
-<h1>Have your say</h1>
-<p> Please take a few moments to provide us with feedback about our website. Feel free to recommend any cool places you go to eat around UCL :)
-Thank you</p>
-<form action="URL to form script" method="POST">
-
-Your name: <br>
-<input type="text" name="realname"><br>
-<br>
-
-Your email: <br>
-<input type="text" name="email"><br>
-<br>
-
-Your comments: <br>
-<textarea name="comments" rows="15" cols="50"></textarea><br><br>
-</div>
-<input type="submit" value="Submit">
-
-</form>
-
-<title>Have your say</title>
-
-<link href="css/main.css" rel="stylesheet" >
-
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Bootstrap 101 Template</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-</head>
-<body style="background-color:white;">
-  </body>
- <nav class="navbar navbar-inverse">
-     <div class="container-fluid">
-       <div class="navbar-header">
-         <a class="navbar-brand" href="#">FoodnearUCL</a>
-       </div>
-       <ul class="nav navbar-nav">
-         <li class="active"><a href="index.html">Home</a></li>
-         <li ><a href="aboutus.html">About</a></li>
-         <li class="dropdown">
-          <a href="food.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Food <span class="caret"></span></a>
-          <ul class="dropdown-menu dropdown-content">
-            <li><a href="vegan.html">Vegan</a></li>
-            <li><a href="vegetarian.html">Vegetarian</a></li>
-            <li><a href="meatlovers.html">Meat Lovers</a></li>
-            <li><a href="#">Dessert</a></li>
-            
-          </ul>
+<div class="container">
+  <div class="row header">
+    <h1>CONTACT US &nbsp;</h1>
+    <p> Please take a few moments to provide us with feedback about our website. Feel free to recommend any cool places you go to eat around UCL :)
+Thank youFill out the form below to learn more!</p>
+  </div>
+  <div class="row body">
+    <form action="#">
+      <ul>
+        
+        <li>
+          <p class="left">
+            <label for="first_name">first name</label>
+            <input type="text" name="first_name" placeholder="John" />
+          </p>
+          <p class="pull-right">
+            <label for="last_name">last name</label>
+            <input type="text" name="last_name" placeholder="Smith" />      
+          </p>
         </li>
-         <li><a href="Haveyoursay.html">Have Your Say</a></li>
-       </ul>
-     </div>
-   </nav>
-
+        
+        <li>
+          <p>
+            <label for="email">email <span class="req">*</span></label>
+            <input type="email" name="email" placeholder="john.smith@gmail.com" />
+          </p>
+        </li>        
+        <li><div class="divider"></div></li>
+        <li>
+          <label for="comments">comments</label>
+          <textarea cols="46" rows="3" name="comments"></textarea>
+        </li>
+        
+        <li>
+          <input class="btn btn-submit" type="submit" value="Submit" />
+          <small>or press <strong>enter</strong></small>
+        </li>
+        
+      </ul>
+    </form>  
+  </div>
+</div>
 
 
 
